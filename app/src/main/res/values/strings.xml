@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Resto App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_pesan_baru">PesanBaruActivity</string>
+    <string name="title_activity_detail_pesanan">DetailPesananActivity</string>
+    <string name="title_activity_pesanan">PesananActivit</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+</resources>

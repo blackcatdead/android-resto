@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_margin="5sp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/iv_menu_img"
+        android:layout_margin="5sp"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/restaurant_icon" />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_margin="0sp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi Goreng "
+                android:id="@+id/tv_menu_nama" />
+            <TextView
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text="Nasi Goreng "
+                android:gravity="right"
+                android:id="@+id/tv_menu_harga" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="jam pesan : 13:30"
+            android:id="@+id/tv_menu_id" />
+</LinearLayout>

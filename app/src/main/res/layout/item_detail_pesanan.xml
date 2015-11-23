@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="5sp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="30sp"
+android:textStyle="bold"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="1"
+
+        android:padding="9sp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/tv_detail_pesanan_nomor" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi Goreng"
+            android:id="@+id/tv_detailpesanan_menu" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity : 5"
+            android:id="@+id/tv_detailpesanan_quantity" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catatan : cabe 5 ga pedas"
+            android:id="@+id/tv_detailpesanan_catatan" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

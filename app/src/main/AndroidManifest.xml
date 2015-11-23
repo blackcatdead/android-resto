@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="resto.yaqin.id.restoapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="helper.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name=".PesanBaruActivity"
+            android:screenOrientation="portrait"
+            android:label="Pesanan Baru" >
+        </activity>
+        <activity
+            android:name=".DetailPesananActivity"
+            android:screenOrientation="portrait"
+            android:label="Detail Pesanan" >
+        </activity>
+        <activity
+            android:name=".PesananActivity"
+            android:screenOrientation="portrait"
+            android:label="Pesanan" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:label="Resto App" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait"
+            android:label="Menu" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light" >
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/aaaa">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="100sp"
+            android:layout_gravity="center"
+            android:layout_height="100sp"
+
+            android:src="@drawable/restaurant_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_material_dark"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:text="RESTO APP" />
+    </LinearLayout>
+
+</RelativeLayout>
