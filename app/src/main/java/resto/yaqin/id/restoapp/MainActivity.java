@@ -96,7 +96,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View view) {
 
-                String url_belum_dikonfirm = "http://"+ip+"/resto/index.php/servicecontroller/belum_dikonfirm";
+                String url_belum_dikonfirm = "http://"+ip+"/resto/index.php/servicecontroller/belum_dikonfirm?id_user_fk="+id;
                 Toast.makeText(MainActivity.this, url_belum_dikonfirm, Toast.LENGTH_SHORT).show();
                 StringRequest stringRequest3 = new StringRequest(Request.Method.GET, url_belum_dikonfirm,
                         new Response.Listener<String>() {
